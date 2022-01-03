@@ -1,6 +1,35 @@
-# Getting Started with Create React App
+## Listicle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Virtualized Lists Web Application built using React
+
+
+## Installation
+
+```
+git clone https://github.com/jeebeez/listicle.git
+cd [foldername]
+yarn install
+yarn start
+
+```
+
+## Features
+
+- Client can see and search through a list of the employees.
+- Optimized the app by only partially rendering results only in-view.
+- Built a responsive design for all screen sizes.
+- Clickable rows to view a particular employee's data in a separate modal.
+- Created a context for better state management.
+
+
+## External Libraries
+
+- [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- [React Helmet Async](https://github.com/staylor/react-helmet-async)
+- [Sass](https://github.com/sass/sass)
+
+
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
