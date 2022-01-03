@@ -1,0 +1,32 @@
+.list {
+  overflow-y: scroll;
+  min-height: 70vh;
+  .rows {
+    position: relative;
+    align-items: center;
+  }
+}
+
+.list::-webkit-scrollbar {
+  width: 7px; /* width of the entire scrollbar */
+}
+
+.list::-webkit-scrollbar-track {
+  background: rgb(255, 197, 91); /* color of the tracking area */
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: rgb(109, 109, 250); /* color of the scroll thumb */
+  // border-radius: 20px; /* roundness of the scroll thumb */
+  // border: 3px solid orange; /* creates padding around scroll thumb */
+}
+
+.keyValues {
+  padding: 20px;
+  color: #888;
+  font-size: 0.8em;
+  .valueKey {
+    display: inline-block;
+    width: 175px;
+  }
+}

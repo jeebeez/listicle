@@ -1,0 +1,18 @@
+.section-search {
+  padding: 0.25rem 0.5rem;
+}
+
+.form-control input {
+  width: 100%;
+  background: transparent;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-width: 1px;
+  cursor: pointer;
+  box-shadow: var(--lightShadow);
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+  background: transparent;
+}

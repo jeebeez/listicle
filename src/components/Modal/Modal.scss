@@ -1,0 +1,87 @@
+#portal .container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+.container .modal {
+  z-index: 1;
+  width: 320px;
+  height: 450px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  flex-flow: column wrap;
+  animation: animate 0.3s ease-in-out;
+}
+.modal button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 8px 11px;
+  background: crimson;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.allData {
+  padding: 0.7rem 0.5rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.allData > :nth-child(2) {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.title {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(163, 163, 163);
+  text-transform: uppercase;
+}
+
+.IDModal {
+  padding: 0.5rem 3rem;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.imageModal {
+  display: flex;
+  flex: 0 1 10%;
+  justify-content: center;
+  align-items: center;
+  img {
+    flex: 0 1 10%;
+    height: 90px;
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

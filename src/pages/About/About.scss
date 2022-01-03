@@ -1,0 +1,19 @@
+.about-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 60vh;
+  text-transform: uppercase;
+  p {
+    font-weight: 900;
+    line-height: 30px;
+
+    span {
+      color: red;
+      font-style: italic;
+      margin: 0 3px;
+    }
+  }
+}

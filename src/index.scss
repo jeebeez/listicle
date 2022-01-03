@@ -1,0 +1,70 @@
+html,
+button,
+input,
+select,
+textarea {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  color: #bbb;
+}
+
+body::-webkit-scrollbar {
+  height: 100%;
+  overflow: hidden;
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* 
+====== 
+Variables 
+======
+*/
+:root {
+  --primaryLightColor: #d4e6a5;
+  --primaryColor: rgb(163, 163, 163);
+  --primaryDarkColor: #c02c03;
+  --mainWhite: #ffffff;
+  --mainBodyGrey: #eeeeee;
+  --offWhite: #f7f7f7;
+  --mainBackground: #111;
+  --mainOverlay: rgba(35, 10, 36, 0.4);
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #afafaf;
+  --mainRed: #bd0303;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.3rem;
+  --lightShadow: 0px 0.4rem 1.8rem rgb(28 28 28 / 12%);
+
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainBorderRadius: 1.5rem;
+  --smallWidth: 85vw;
+  --maxWidth: 40rem;
+  --fullWidth: 1170px;
+}
+/* 
+  ====== 
+  Global Styles 
+  ======
+  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--mainBlack);
+  background: var(--mainBodyGrey);
+  line-height: 1.4;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--mainBlack);
+}

@@ -1,0 +1,92 @@
+.rowHeader {
+  background-color: #fff;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 40px 0px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  font-weight: 900;
+  color: rgb(163, 163, 163);
+  text-transform: uppercase;
+}
+
+.imageHeader {
+  flex: 0 1 10%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    flex: 0 1 10%;
+    height: 3rem;
+    border-radius: 50%;
+  }
+}
+
+.IDHeader {
+  flex: 0 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+  }
+}
+.nameHeader {
+  flex: 0 1 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.emailHeader {
+  flex: 0 1 25%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.phoneHeader {
+  flex: 0 1 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.companyHeader {
+  flex: 0 1 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .emailHeader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .emailHeader {
+    display: none;
+  }
+  .phoneHeader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .companyHeader {
+    display: none;
+  }
+}
