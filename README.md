@@ -3,6 +3,10 @@
 ### Virtualized Lists Web Application built using React
 
 
+
+![project thumbnail](./public/Listicle.webp)
+
+
 ## Installation
 
 ```
