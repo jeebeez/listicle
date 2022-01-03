@@ -2,6 +2,9 @@
 
 ### Virtualized Lists Web Application built using React
 
+### Live Demo
+
+[Click here to see it live](https://listicles.netlify.app/)
 
 
 ![project thumbnail](./public/Listicle.webp)
